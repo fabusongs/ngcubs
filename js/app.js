@@ -9,7 +9,7 @@
   app.factory('cubService', [
     '$http', '$q',
     function cubService($http, $q) {
-      console.log('Cubs service fired');
+      console.log('2018 Cubs service wip');
 
       var service = {
         cubs: [],
