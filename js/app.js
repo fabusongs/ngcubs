@@ -21,7 +21,7 @@
       function getCubs() {
         var def = $q.defer();
 
-        $http.get("http://www.touchtap.net/myapi/cubs10best.json")
+        $http.get("")
           .success(function(data) {
             service.cubs = data;
             def.resolve(data);
