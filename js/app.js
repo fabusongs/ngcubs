@@ -35,7 +35,7 @@
       }
 
       function getCubsBasic() {
-        return $http.get("https://www.touchtap.net/myapi/cubs10best.json")
+        return $http.get("https://www.touchtap.net/data/cubs10best.json")
           .success(function(cubs) {
             service.cubs = cubs;
           //alert('See console log for promises kept.');
